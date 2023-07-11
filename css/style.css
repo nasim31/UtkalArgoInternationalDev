@@ -382,9 +382,8 @@
     border-right: none;
 }
 
-/* partners */
-.partner-logo {
-    max-width: 300px;
-    max-height: 150px;
-    object-fit: contain;
+/* my css */
+.navbar-brand img {
+    max-width: 180px; /* Adjust the width as needed */
+    height: auto;
 }
