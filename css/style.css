@@ -164,6 +164,18 @@
     height: 3rem;
 }
 
+.carousel-inner {
+    max-height: 300px; /* Set a fixed height for the carousel container */
+    overflow: hidden; /* Ensure no overflow for taller images */
+  }
+  
+  .carousel-image {
+    height: 300px; /* Match the height of the carousel */
+    object-fit: cover; /* Ensure images are cropped while maintaining aspect ratio */
+    width: 100%; /* Ensure images fill the container width */
+  }
+  
+
 @media (max-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
